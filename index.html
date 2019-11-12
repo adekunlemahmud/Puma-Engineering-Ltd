@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Read, Puma, construction, Services, Products, Engineering, Niger, Nigeria, Roads, Corporate, Nndanusa" />
     <link rel = "icon" type = "image/png" href = "https://res.cloudinary.com/dwszstiol/image/upload/v1573336115/logo-removebg-preview_hstbqe.png" SameSite=None>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
     <style>
       body{
         margin: 0;
         padding: 0.4px;
-        /* background-image: url("https://res.cloudinary.com/dwszstiol/image/upload/v1573336646/bg_od1jmg.jpg"); */
-       
+        background-image: url("img5.jpg");
+        
       }
+      
       h2 {
         font-size: 16px;
         font-weight:900;
@@ -37,32 +38,104 @@
       }
       .footer-class{
         font-size: 10px;
+        margin-left: 5em;
       }
       .btn-primary{
         background-color: rgb(138, 133, 133);
         border-color: inherit;
       }
-      .fade-in{
-        animation: fadeIn 8s;
-      } 
-      @keyframes fadeIn{
-        from {
-          opacity: 0;
-        }
-        to{
-          opacity: 1;
-        }
+      
+      .first{
+        display:grid;
       }
-      /* section{
-        margin: 0 0 0 0;
-        padding: 0 0 0 0;
-      } */
+      .cards{
+        margin-top: 10px;
+      }
+      #anch{
+        text-decoration: none;
+        color: grey;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+      }
+      .container{
+        padding-top: 2em;
+        padding-bottom: 2em;
+      }
       @media  (min-width: 485px) {
         nav{
-          background-color: rgb(247, 248, 246);
+          background-image: url("img3.jpg");
           display: none;
           
         }
+      }
+      .hide1{
+        display: none;
+      }
+      .footer-class{
+        font-size: 12px;
+        margin-left: 7em;
+      }
+      @media (min-width: 768px) {
+      .second{
+        display: grid;
+      }
+      .hide{
+        display: none;
+      }
+      #head{
+        color: grey;
+        font-size: xx-large;
+        margin-right: 40px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border-bottom: 2px solid currentColor;
+      }
+      #logo{
+        width: 120px;
+        height: 120px;
+      }
+      .listers-u{
+        display: flex;
+        margin-left: -40px;
+       padding-top: 5px;
+       
+      }
+     ul li{
+      list-style-type: none;
+      padding-left: 3em;
+      margin-right: .05em;
+      background-image: url("img4.jpg");
+      width: 300px;
+      height: 45px;
+     }
+     .listers1{
+       padding-top: 10px;
+       padding-left: -3px;
+       
+     }
+     #list{
+       text-decoration: none;
+       color: white;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+     }
+     img{
+       width: 300px;
+       height: 400px;
+     }
+     .footer-class{
+        font-size: 14px;
+        margin-left: 10em;
+      }
+    
+      }
+      @media (min-width: 768px){
+        .container{
+          padding: 3em 10em 3em 10em;
+        }
+        .footer-class{
+        font-size: 14px;
+        margin-left: 15em;
+        margin-top: 5px;
+      
       }
     </style>
     <title>Welcome • Puma Engineering Ltd</title>
@@ -72,33 +145,40 @@
     <!-- Image and text -->
 <nav class="navbar navbar-light ">
     <a class="navbar-brand" href="#">
-      <img src="https://res.cloudinary.com/dwszstiol/image/upload/v1573336115/logo-removebg-preview_hstbqe.png" width="90" height="90" class="d-inline-block align-top" alt="">
+      <img src="https://res.cloudinary.com/dwszstiol/image/upload/v1573336115/logo-removebg-preview_hstbqe.png" id="logo" width="90" height="90" class="d-inline-block align-top" alt="puma-logo">
     </a>
-    <section>
+    <section class="first hide" id="">
       <h2>Puma Engineering </h2>
       <h2> Nigeria Limited</h2>
     </section>
-     
+     <section class="second hide1" id=""><h1 id="head">Puma Engineering Nigeria Limited</h1></section>
   </nav>
-    <div class="container-two">
-        <ul class="list-group list-group-flush ">
-            <li class="list-group-item lists"><a href="#"></a>Home</a></li>
-            <li class="list-group-item lists"><a href="#"></a>About Us</a></li>
-            <li class="list-group-item lists"><a href="#"></a>Core Business</a></li>
-            <li class="list-group-item lists"><a href="#"></a>Career</a></li>
-            <li class="list-group-item lists"><a href="#"></a>Contact Us</a></li>
+    <div class="container-two ">
+        <ul class="list-group list-group-flush hide" id="nav">
+            <li class="list-group-item lists"><a href="#" id="anch">About Us</a></li>
+            <li class="list-group-item lists"><a href="#" id="anch">Core Business</a></li>
+            <li class="list-group-item lists"><a href="#" id="anch">Career</a></li>
+            <li class="list-group-item lists"><a href="#" id="anch">Contact Us</a></li>
+          </ul>
+          
+          <ul class="list-group-flush listers-u hide1" id="nav">
+            <li class="listers1"><a href="#" id="list">About Us</a></li>
+            <li class="listers1"><a href="#" id="list">Core Business</a></li>
+            <li class="listers1"><a href="#" id="list">Career</a></li>
+            <li class="listers1"><a href="#" id="list">Contact Us</a></li>
           </ul>
     </div>
+    <div class="sliding">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active slider">
-            <img src="https://res.cloudinary.com/dwszstiol/image/upload/v1573231555/3_nuzvsi.webp" width="200" height="250" class="d-block w-100" alt="...">
+            <img src="https://res.cloudinary.com/dwszstiol/image/upload/v1573231555/3_nuzvsi.webp" width="200" height="250" class="d-block w-100 carou" alt="...">
           </div>
           <div class="carousel-item slider">
-            <img src="https://res.cloudinary.com/dwszstiol/image/upload/v1573231627/road-construction_gjy9ag.jpg" width="200" height="250" class="d-block w-100" alt="...">
+            <img src="https://res.cloudinary.com/dwszstiol/image/upload/v1573231627/road-construction_gjy9ag.jpg" width="200" height="250" class="d-block w-100 carou" alt="...">
           </div>
           <div class="carousel-item slider">
-            <img src="https://res.cloudinary.com/dwszstiol/image/upload/v1573231648/road_surfacing_civil_engineering_01_rzhark.jpg" width="200" height="250" class="d-block w-100" alt="...">
+            <img src="https://res.cloudinary.com/dwszstiol/image/upload/v1573231648/road_surfacing_civil_engineering_01_rzhark.jpg" width="200" height="250" class="d-block w-100 carou" alt="...">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -110,9 +190,10 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-      <div class="row">
+    </div>
+      <div class="row cards">
          
-        <div class="col-sm-6">
+        <div class="col-sm-6" data-aos="fade-up">
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Latest Happenings</h5>
@@ -124,7 +205,7 @@
           </div>
         </div>
           
-        <div class="col-sm-6 fade-in">
+        <div class="col-sm-6" data-aos="fade-up">
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Latest Happenings</h5>
@@ -134,9 +215,17 @@
               <a href="#" class="btn btn-primary">Read More...</a>
             </div>
           </div>
-          
+          </div>
+          <div>
       <footer class="footer-class"> &copy; 2019 Puma Engineering Nigeria Ltd. All rights reserved</footer>
     </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>   
+      AOS.init(); 
+   </script>
 </body>
 </html>
