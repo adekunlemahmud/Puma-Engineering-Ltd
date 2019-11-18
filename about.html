@@ -61,30 +61,36 @@
         padding-top: 2em;
         padding-bottom: 2em;
       }
+      .middle{
+        display:grid;
+        background-color: whitesmoke;
+        margin-bottom: 1em;
+      }
       #res{
-          margin-left: 15em;
+          margin-left: 2em;
           color: rgb(224, 83, 83);
           padding-bottom: 1em;
       }
       #del{
-          margin-left: 20em;
+          margin-left: 5em;
           color: rgb(69, 69, 240);
+          padding-bottom: 1em;
       }
       #fas{
           padding-bottom: 1em;
           color: rgb(21, 156, 43);
-          margin-left: 10em;
+          margin-left: 1em;
       }
       .faders{
           margin-left: 0em;
           /* font-style: italic; */
-          width: 55em;
-          margin-top: 5em;
+          
+          margin-top: 0em;
           font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
           
       }
       .middle{
-        display: flex;
+        display: block;
         background-color: whitesmoke;
         margin-bottom: 1em;
       }
@@ -95,6 +101,7 @@
        width: 200px;
        height: 300px;
      }
+     
       @media  (min-width: 485px) {
         nav{
           background-image: url("img3.jpg");
@@ -161,12 +168,33 @@
         font-size: 14px;
         margin-left: 10em;
       }
+       .middle{
+        display: flex;
+        background-color: whitesmoke;
+        margin-bottom: 1em;
+      }
+      .faders{
+          margin-left: 4em;
+          margin-top: 5em;
+      } 
+      #res{
+          margin-left: 7em;
+          
+      }
+      #del{
+          margin-left: 10em;
+          
+      }
+      #fas{
+          margin-left: 5em;
+      }
+      
     
       }
-      @media (min-width: 998px){
-        .container{
+      @media (min-width: 995px){
+        /* .container{
           padding: 3em 8em 3em 8em;
-        }
+        } */
         .footer-class{
         font-size: 14px;
         margin-left: 15em;
@@ -175,7 +203,42 @@
       .contents{
         background-image: url("img6.svg")
       }
+      .faders{
+          margin-left: 5em;
+          margin-top: 5em;
+      } 
+      #res{
+          margin-left: 10em;
+          
       }
+      #del{
+          margin-left: 15em;
+          
+      }
+      #fas{
+          margin-left: 5em;
+      }
+      @media (min-width: 1070px){
+        .faders{
+          margin-left: 8em;
+          margin-top: 5em;
+      } 
+      #res{
+          margin-left: 15em;
+          
+      }
+      #del{
+          margin-left: 20em;
+          
+      }
+      #fas{
+          margin-left: 10em;
+      }
+
+      }
+      
+      }
+      
     </style>
     <title>Welcome • Puma Engineering Ltd</title>
 </head>
